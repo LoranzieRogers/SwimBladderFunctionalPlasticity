@@ -11,7 +11,7 @@
 %% Clear all and set directory
 
 clear all; close all; clc;                                                  % clear and close everything
-cd('/Users/loranzierogers/Documents/UW/projects/maleSaccule-SeasonalRemovalSB/Data/AllData');
+uigetdir();
 
 %% CT measurement data
 
