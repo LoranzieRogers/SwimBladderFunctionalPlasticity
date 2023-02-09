@@ -11,7 +11,7 @@
 
 clc; clf;
 
-cd("/Users/loranzierogers/Documents/UW/projects/maleSaccule-SeasonalRemovalSB/Figures/FigureS2")
+uigetdir()
 
 %% Import and partition data
 
