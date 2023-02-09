@@ -49,7 +49,7 @@ Summer = SonicMuscle(:,2); SummerMean = mean(Summer,'omitnan'); SummerSD = std(S
 SMSI = [Winter' Summer'];
 AvgSMSI = [WinterMean SummerMean]; StdSMSI = [WinterSD SummerSD];
 
-figure(5); clf;
+figure(1); clf;
 bar(x,AvgSMSI,'FaceColor',[0.5 0.5 0.5],'BarWidth',0.8,'LineWidth',1.5,'FaceAlpha',0.75);
 hold on
 er = errorbar(x',AvgSMSI',StdSMSI,'k','LineWidth',1.5);
@@ -72,7 +72,7 @@ Summer = HornLength(:,2); SummerMean = mean(Summer,'omitnan'); SummerSD = std(Su
 HL = [Winter' Summer'];
 AvgHL = [WinterMean SummerMean]; StdHL = [WinterSD SummerSD];
 
-figure(6); clf;
+figure(2); clf;
 bar(x,AvgHL,'FaceColor',[0.5 0.5 0.5],'BarWidth',0.8,'LineWidth',1.5,'FaceAlpha',0.75);
 hold on
 er = errorbar(x',AvgHL',StdHL,'k','LineWidth',1.5);
@@ -95,7 +95,7 @@ Summer = width(:,2); SummerMean = mean(Summer,'omitnan'); SummerSD = std(Summer,
 width = [Winter' Summer'];
 AvgWidth = [WinterMean SummerMean]; StdWidth = [WinterSD SummerSD];
 
-figure(6); clf;
+figure(3); clf;
 bar(x,AvgWidth,'FaceColor',[0.5 0.5 0.5],'BarWidth',0.8,'LineWidth',1.5,'FaceAlpha',0.75);
 hold on
 er = errorbar(x',AvgWidth',StdWidth,'k','LineWidth',1.5);
