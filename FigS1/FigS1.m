@@ -9,6 +9,7 @@
 % delta phase
 % 
 % written by: Loranzie S. Rogers
+% email: loranzie@uw.edu
 % Date: March 4, 2022 
 % 
 
