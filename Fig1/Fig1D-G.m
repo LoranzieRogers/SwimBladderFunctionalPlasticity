@@ -6,7 +6,8 @@
 % The following plots and statistics support Fig. 1 D-G.
 %  
 % Written by: Loranzie S. Rogers
-% 
+% email: loranzie@uw.edu
+% Date: 
 
 %% Clear all and set directory
 
