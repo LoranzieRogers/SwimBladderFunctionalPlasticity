@@ -12,7 +12,7 @@
 % Date: March 4, 2022 
 % 
 
-cd('/Users/loranzierogers/Documents/UW/projects/maleSaccule-SeasonalRemovalSB/Data/SacculeSpeakerSetup');
+uigetdir();
 %% Background SPL
 
 files = dir('background*.txt');
