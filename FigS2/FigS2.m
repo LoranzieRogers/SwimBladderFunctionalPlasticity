@@ -5,6 +5,7 @@
 % representative test frequencies: 95, 190, and 285 Hz.
 % 
 % Written by: Loranzie S. Rogers
+% email: loranzie@uw.edu
 % Date: January 30, 2023
 
 %% Clear and set cd
