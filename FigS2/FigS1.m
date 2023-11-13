@@ -1,4 +1,4 @@
-%% Figure S2: Representative evoked saccular hair cell potential input-output response curves.
+%% Figure S1: Representative evoked saccular hair cell potential input-output response curves.
 % 
 % Here, we will plot the input-outpus response curves of a representative
 % non-reproducrive and reproductive male midshipman in response to three
