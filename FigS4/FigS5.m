@@ -11,10 +11,10 @@ dir = uigetdir();
 cd(dir);
 
 % set file location of iso-intensity data
-FileLocation = '/Users/loranzierogers/Documents/UW/projects/maleSaccule-SeasonalRemovalSB/Data/AllData/FigS4';
+FileLocation = '';
 f0 = 95:95:950;
 
-%% Non-reproductive control
+%% Nonreproductive control
 
 NRC = dir(fullfile(dir,'NRC-PN22*.xls'));
 NRCfilenames = {NRC.name}; % all of the filenames in one cell array
@@ -57,7 +57,7 @@ NRCsd = [std(NRCmean154,[],2,'omitnan') std(NRCmean142,[],2,'omitnan') std(NRCme
 NRCsem = [std(NRCmean154,[],2,'omitnan')/sqrt(length(NRCmean154)) std(NRCmean142,[],2,'omitnan')/sqrt(length(NRCmean142)) std(NRCmean130,[],2,'omitnan')/sqrt(length(NRCmean130))];
 
 
-%% Non-reproductive removal
+%% Nonreproductive removal
 
 NRR = dir(fullfile(dir,'NRR-PN22*.xls'));
 NRRfilenames = {NRR.name}; % all of the filenames in one cell array
@@ -236,7 +236,7 @@ set(icons, 'Markersize', 7.5); %// set value as desired
 
 for i = [1 4 ]
     Yplot = subplot(2,3,i);
-    ylabel('Saccular P\potential (\muV)','FontName','Arial','fontsize',10);
+    ylabel('Saccular potential (\muV)','FontName','Arial','fontsize',10);
 end
 
 
