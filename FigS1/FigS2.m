@@ -1,4 +1,4 @@
-%% Fig S1: Acoustic characteristics of the experimental speaker and tank
+%% Fig S2: Acoustic characteristics of the experimental speaker and tank
 % 
 % Electrophysiology experimental tank Acoustics
 % 
